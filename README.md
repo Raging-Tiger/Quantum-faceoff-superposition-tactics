@@ -27,7 +27,7 @@ The game was developed and tested using the following setup:
 To run the game, run the **main.py** file. 
 
 - Current game version: **1.0.0**.
-
+NB! The game uses a soundtrack. It can be muted/unmuted using the keyboard button **M**.
 ## Game structure and gameplay elements
 
 The game has mostly a linear structure, featuring two possible endings, and follows the following pattern:
@@ -134,16 +134,25 @@ Any dialog in the box (as in the figure below), can be iterated by pressing the 
 
 During the battle, the following controls and information are available to the player (see figure below). The player has information about the current state (superposition), turns until the next measurement happens, knows their own *HP* and *QP*, as well as the enemy’s *HP* (the enemy’s *QP* is infinite, thus not displayed as a bar). The player also has buttons to use via mouse pointer clicks. The top row is used for quantum gates, and the arrow nearby is used to show the next set of quantum gates. Pagination is circular, so the player just needs to press the arrow until the player gets back to the original set of gates.
 
-![Gameplay screenshot 1](images/p2.png)
+![Gameplay screenshot 2](images/p2.png)
 
 To apply the gates, the player must select the quantum gate, the qubit, and press the *“Apply”* button. This will immediately display a new state/superposition. In case the player does not have enough *QP*, the message will appear (figure below). The message box can be closed by pressing the *SPACE* bar. In parametric gates (RX, RY, RZ), the value of the angle is selected by the slider. The value on the slider does not affect the rest of the gates.
 
-![Gameplay screenshot 1](images/p3.png)
+![Gameplay screenshot 3](images/p3.png)
 
 To end the turn, the player must press *“End Turn”*. Then, the enemy will respond with its set of actions and gate usages. The results of the enemy’s move will be displayed in the info box (can be closed with the *SPACE* bar). For *phase 1*, there will be only **1** gate per turn used by the enemy, in *phase 2* – **2**, and in *phase 3* – **3** (see figure below). The superposition is shown updated, but BEFORE measurement has occurred (so the player can study the new configuration, before it will collapse to one state). 
 
-![Gameplay screenshot 1](images/p4.png)
-![Gameplay screenshot 1](images/p5.png)
+![Gameplay screenshot 4](images/p4.png)
+![Gameplay screenshot 5](images/p5.png)
+
+The actions that were actually done after the measurement was done are displayed on the screen in info boxes under the player/enemy for around 3 seconds and will disappear automatically.
+
+![Gameplay screenshot 6](images/p6.png)
+
+The game continues until one of the sides' *HP* becomes **0**. In any case, it will trigger a good ending or a bad ending with different final dialogues.
+![Gameplay screenshot 7](images/p7.png)
+
+After finishing the last dialogue sequence, in both cases will be the end game screen.
 
 ## General “handbook” of in-game skills
 
@@ -413,3 +422,5 @@ Character sprites were taken from https://craftpix.net/freebies/free-wizard-spri
 Musical compositions are created using an AI model, and the lyrics used are original.
 
 The short story, characters, and dialogues are created by me and are purely a work of fiction.
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International** (CC BY-NC-ND 4.0).
