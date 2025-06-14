@@ -1,5 +1,11 @@
 # Quantum-faceoff-superposition-tactics
 
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+![Game Version](https://img.shields.io/badge/Game%20Version-1.0.0-blueviolet)
+![Qiskit](https://img.shields.io/badge/Qiskit-1.3.1-informational)
+![Qiskit Aer](https://img.shields.io/badge/Qiskit%20Aer-0.15.1-blue)
+![Pygame](https://img.shields.io/badge/Pygame-2.6.1-green)
+
 The game *"Quantum faceoff: superposition tactics"* is developed in the scope of the ADEQUATE (Advanced End-to-end QUAntum computing TEchnical) Course project phase (spring 2025).
 
 The game is an old-school JRPG-style, featuring turn-based combat.
